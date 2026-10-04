@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: rgb(78, 54, 22);
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+#id {
+    color: aqua;
+    text-align: center;
+    font-size: 30px;
+}
+
+.childselector > p {
+    color: rgb(206, 206, 158);
+    text-align: center;
+    font-size: 25px;
+}
+
+.descendantselector {
+    color: cadetblue;
+    text-align: center;
+    font-size: 25px;
+}
+
+.adjacentsibling > h1 + p {
+    color: burlywood;
+    text-align: center;
+    font-size: 25px;
+}
+
+.generalsiblingselector > h1 ~ p {
+    color: aqua;
+    text-align: center;
+    font-size: 25px;
+}
